@@ -1,0 +1,533 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="FEarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Chapter 3: The Bandits of Borgo</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div class="container">
+<div>narrator</div>
+<div>Ephraim, the missing prince of
+Renais, has been found.<br>
+He is in Renvall, a Grado province near
+the border with Renais.<br>
+Stationed there is Tirado, Valter's trusted
+aide, who requests reinforcements.<br>
+The way there is long and perilous, however,
+and soon Lyon finds his first roadblock:<br>
+An old fort in Borgo Ridge, once used
+as a hideout by a band of brigands.<br>
+It now houses a group of survivors
+from the Renais army...</div>	
+			</div>
+			<div class="container transition">
+<div>colm</div>
+<div>Psst! Hey, mate!</div>
+<div>commander</div>
+<div>What is it, lad?</div>
+<div>colm</div>
+<div><i>(smiles)</i> Just wanted to thank you
+again.<br>
+When Bazba's Bandits got
+their sweaty paws on me, I thought I was a goner for
+sure. You lot saved my hide!</div>
+<div>commander</div>
+<div><i>(smiles)</i> Don't mention it. It was
+our pleasure.<br>
+<i>(serious)</i> Renais has fallen, the royal
+family has disappeared...<br>
+These are harrowing days for all of
+us, and we soldiers are to blame.<br>
+It felt good to deliver some
+justice to those cutthroats.<br>
+Do our jobs right, for a change.</div>
+<div>colm</div>
+<div><i>(serious)</i> Don't beat yourselves up.
+Nobody expected Grado's attack.<br>
+You all did the best you could,
+I'm sure.
+<p>
+Well... I think I'd best get going now.
+I found my friend's mirror, you see.</p></div>
+<div>commander</div>
+<div>I see. Good luck out there, lad.
+You and your friend stay safe--</div>
+<div></div><div class="stagedirection">(A soldier approaches.)</div>
+<div>soldier</div>
+<div>S-Sir! Bad news!
+It's Grado!<br>
+They're...
+They're coming here!</div>
+<div></div><div class="stagedirection">(The commander starts.)</div>
+<div>commander</div>
+<div>Here?! What?!
+Why?!<br>
+They can't have come just to
+kill a few stragglers like us!</div>
+<div>soldier</div>
+<div>Well, fact is, they're fast
+approaching. What do we do?</div>
+<div>commander</div>
+<div>What CAN we do?
+We defend as best we can.<br>
+The barricades should buy
+us some time, and...</div>
+<div>colm</div>
+<div>Let me help. I found this
+fancy sword in the keep.<br>
+None of your guys know
+much swordsmanship.<br>
+I'm great with a blade, though.
+I could hit 'em hard with this!</div>
+<div>commander</div>
+<div>Are you crazy, lad? You've
+got to get back to your friend!</div>
+<div>colm</div>
+<div>...Neimi'll be fine on her own for
+a bit longer.<br>
+Not like I have much of a chance
+to sneak past them, anyway.<br>
+'Sides, I owe you all my life. This
+is the least I can do.</div>
+<div>commander</div>
+<div>...Godspeed, lad.<br>
+Let's win the day so this brave
+boy can return to his friend safely!</div>
+<div>soldier</div>
+<div>Aye aye, sir!</div>
+			</div>
+			<div class="container transition">
+<div>lyon</div>
+<div>So this is the fort you told
+me about...</div>
+<div>valter</div>
+<div>It may look rather derelict,
+but make no mistake.<br>
+It is crawling with gormless
+Renais knightlings.<br>
+If we wipe them out, we can use
+the fort to rest for the night.<br>
+That, and of course, we can't just
+leave our enemies to roam free.</div>
+<div>glen</div>
+<div>In other words, Valter wants to
+start yet another pointless fight.<br>
+Needless to say, I object.
+We should just keep going.</div>
+<div>lyon</div>
+<div>No, I agree with Valter.
+What if they strike us from behind?<br>
+Or what if they regroup and rise
+up against Father? We can't risk it.</div>
+<div>valter</div>
+<div>Excellent. Without further
+ado, then?</div>
+<div>lyon</div>
+<div>Yes. Let's go.</div>
+<div>glen</div>
+<div>......</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Enemy Turn 1 (if hard mode)</h1>
+			<div class="container">
+<div>monk <font style="text-transform:lowercase">w/</font> Purge</div>
+<div>My goodness...
+What a predicament this is.<br>
+I must remain calm. Victory
+may depend on my tome...<br>
+I can put them to rout before
+they can even get close.<br>
+Gods grant me strength...</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>NPC Turn 1</h1>
+			<div class="container">
+<div></div><div class="stagedirection">(Bone paces around the cell.)</div>
+<div>bazba</div>
+<div>Dammit all, Bone!<br>
+Will you stop jittering about?!
+It's driving me nuts!</div>
+<div>bone</div>
+<div>Ack! Sorry, boss!</div>
+<div>bazba</div>
+<div>Make yourself useful, you fool!
+Get this door open!</div>
+<div></div><div class="stagedirection">(Bone steps closer.)</div>
+<div>bone</div>
+<div>What?</div>
+<div>bazba</div>
+<div>You gonna play dumb with me?<br>
+They took my tools, but I saw you
+slip a lockpick into your trousers.</div>
+<div>bone</div>
+<div>Er, yeah, I could probably get
+the door open, but...</div>
+<div>bazba</div>
+<div>But what?!</div>
+<div>bone</div>
+<div>T-They'll just beat us silly
+and lock us in here again!<br>
+We gotta be, y'know...
+Ascetic about this!</div>
+<div>bazba</div>
+<div>As...
+Ascetic, Bone?</div>
+<div>bone</div>
+<div>Yeah, you know! Think 'bout
+our actions carefully, and--</div>
+<div></div><div class="stagedirection">(Bazba huffs.)</div>
+<div>bazba</div>
+<div>Strategic, you moron! Strategic!
+Ascetic's not even close!<br>
+And I don't need no strategies!
+I'm the mighty Bazba!<br>
+I'll chop 'em all in half without
+even breakin' a sweat!</div>
+<div>bone</div>
+<div>...That's what you said when they
+showed up, and look at us now...</div>
+<div>bazba</div>
+<div>Bah! They got me by surprise!
+Things'll be different this time!</div>
+<div>bone</div>
+<div>Yes they will, boss!<br>
+'Cause I'm not opening the door.</div>
+<div>bazba</div>
+<div>...Incredible. How can you stand
+upright without a spine, boy?<br>
+Guess we'll just sit here and
+twiddle our thumbs, then.</div>
+<div>bone</div>
+<div>Fine by me.</div>
+<div>bazba</div>
+<div>...Unnnhh...</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 3</h1>
+			<div class="container">
+<div></div><div class="stagedirection">(Brigands approach from the south.)</div>
+<div>brigand</div>
+<div>Chop chop, boys!
+We ain't got all day!<br>
+Now that we're free from Bazba
+and his almighty delusions, we can create a new, improved
+gang and get filthy rich!<br>
+All we gotta do is take the keep
+back from those idiot knights!<br>
+The guy I sent in must've gotten
+the doors open by now.<br>
+Let's go, lads!
+Time to get rich!</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Freeing Bazba</h1>
+			<div class="container">
+<div>bazba</div>
+<div>Wha... The heck's going on?!
+Who are you people?
+<p>
+Grado soldiers, eh...</p><br>
+<i>(grins)</i> Hah, oh I almost feel bad
+for the poor wretches!<br>
+<i>(serious)</i> Well then, kind sirs. Hope you
+don't mind if we skedaddle now!</div>
+<div>bone</div>
+<div>...They're not moving
+from the door, boss...</div>
+<div>bazba</div>
+<div>Grrr... Whaddya want with us?!
+We ain't got a thing!
+<p>
+These axes? They were lying around
+in this room when they locked us in.</p></div>
+<div>bone</div>
+<div>I forgot 'em here the other day
+when I was on cleaning duty.<br>
+Boss was so mad at me...
+Turned out to be a lucky break, huh.</div>
+<div>bazba</div>
+<div>Shut up, Bone.<br>
+...Oohh, I see now...
+Ya want us to fight for ya!<br>
+<i>(grins)</i> Hah hah hah...
+Good choice, friend!<br>
+I am the mighty Bazba!
+None can withstand my axe!</div>
+<div>bone</div>
+<div>I'm Bone.</div>
+<div>bazba</div>
+<div><i>(frowns)</i> ......<br>
+Outstandin', Bone.
+You really sold yourself there, man.<br>
+Sigh... Well, keep in mind,
+<font color="red">we're both good with locks and pockets.</font><br>
+You want somethin' stolen?
+Let us know. <i>(smirks)</i> Hah hah hah...<br>
+Otherwise, we'll be happy to crack
+some heads for ya! Startin' right now!</div>
+<div>bone</div>
+<div>...I have a bad feeling about this...</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Conversations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Colm</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>colm</div>
+<div>Drat... No, no!
+Get away from me!
+<p>
+Neimi!</p></div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>colm</div>
+<div>To think of it... Me...
+In this place... Neimi...</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+			<div class="container">
+<div>duessel</div>
+<div>...That's it.
+The fort has fallen.</div>
+<div>glen</div>
+<div>You do not look so pleased,
+Duessel.<br>
+...Sigh... Be that I could claim not
+to understand, but I very much do.</div>
+<div>selena</div>
+<div>You as well, Glen?<br>
+We are His Majesty's
+Imperial Three. We--</div>
+<div>glen</div>
+<div>Imperial SIX, now.<br>
+Come now, Selena. Don't tell
+me you're comfortable with it.<br>
+Reinstating Valter, after what
+he did all those years ago?<br>
+It is madness-- And believe me,
+he has not changed at all.</div>
+<div>duessel</div>
+<div>And that priest...<br>
+I am not the superstitious kind,
+but there is something about him.<br>
+Something... wrong.
+Evil, even.
+<p>
+And naming a mere mercenary general?
+He has no true loyalty to Grado!<br>
+He could turn on us the moment
+it suits his designs!</p></div>
+<div>selena</div>
+<div>I must admit, they wouldn't
+have been my first choices.<br>
+But even so! His Majesty
+named them himself.<br>
+I, for one, trust in His Majesty's
+judgment.</div>
+<div>glen</div>
+<div>...Yes... I do as well.<br>
+Emperor Vigarde has always
+been a kind and just man.</div>
+<div>duessel</div>
+<div>...And yet, his decisions of late...
+I pray they haven't been influenced by...</div>
+<div>selena</div>
+<div>What's that, Duessel?</div>
+<div>duessel</div>
+<div>...Never mind.
+Just pointless ruminations of mine.</div>
+<div>selena</div>
+<div>Hmm. Well, in any case, we should
+conduct a full sweep of the building.</div>
+<div>glen</div>
+<div>Yes... Let us do that.</div>
+<div></div><div class="stagedirection">(Glen and Selena leave.)</div>
+<div>duessel</div>
+<div>......</div>			
+			</div>
+			<div class="container transition">
+<div>lyon</div>
+<div>......</div>
+			</div>
+			<h3>1 1/5 years ago</h3>
+			<div class="container">
+<div>lyon</div>
+<div>When tomorrow comes...
+You have to go home, don't you?</div>
+<div>eirika</div>
+<div>Yes...
+Thank you for everything, Lyon.<br>
+I'll never forget the time I
+spent here.</div>
+<div>ephraim</div>
+<div>Don't make that face.<br>
+We'll see each other again. All
+three of us--you, me, and Eirika.</div>
+<div>lyon</div>
+<div><i>(smiles)</i> Yeah... I know.<br>
+But when we get older, when we each
+take the reigns of our nations,<br>
+we probably won't meet again... Not
+like this, I mean. Not as friends.</div>
+<div>ephraim</div>
+<div><i>(smiles)</i> What's that got to do with anything?<br>
+Kings are humans, too. Emperors
+need not be friendless, you know.</div>
+<div>lyon</div>
+<div>I suppose you're right. You have a knack
+for cutting to the heart of things.<br>
+But becoming a king or an emperor is
+not something you can take lightly.<br>
+I really don't think we'll be the
+same people we are right now...
+<p>
+What if Renais and Grado went to war?
+What if we were forced to fight?</p></div>
+<div>eirika</div>
+<div><i>(smiles)</i> Don't be ridiculous!
+That would never happen!</div>
+<div>lyon</div>
+<div>If...
+If it did...<br>
+We'd still be friends,
+wouldn't we?</div>
+<div>ephraim</div>
+<div>Even if that happens, yes.<br>
+We're friends forever. Nothing
+can change that. You'll see.</div>
+<div>lyon</div>
+<div>Hm...<br>
+All right, Ephraim.
+Then I will see you again.</div>
+<div>eirika</div>
+<div>I hope your study of the Sacred
+Stones is fruitful.<br>
+I know you'll use the wisdom you
+glean to make your people happy.</div>
+<div>lyon</div>
+<div>Thank you, Eirika.<br>
+You know, there were times when I
+wanted to give up, to admit failure.<br>
+But you were always there. You were
+always encouraging me to succeed.<br>
+That's what kept me going. I just
+thought of you.</div>
+<div>eirika</div>
+<div>Lyon...</div>
+<div>lyon</div>
+<div>...I guess this is it, Eirika.
+Hope to see you again someday.<br>
+I'm going to focus on my work
+and do my best until that day.<br>
+My research will progress, and my
+discoveries will benefit us all.<br>
+One day, I will be a prince worthy
+of you, and I will see you again.</div>
+<div>eirika</div>
+<div>...It's a promise.</div>
+<div>ephraim</div>
+<div>Well, we still need to fare the
+Emperor well.<br>
+Goodbye, Lyon. Till next we
+meet!</div>
+<div>eirika</div>
+<div>Please, don't forget to write!</div>
+<div>lyon</div>
+<div>Of course...</div>
+<div></div><div class="stagedirection">(Eirika and Ephraim leave.)</div>
+<div>lyon</div>
+<div>......</div>
+<div></div><div class="stagedirection">(Fomortiis appears before Lyon.)</div>
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(Lyon starts.)</div>
+<div>lyon</div>
+<div>Gah...!</div>
+<div>riev</div>
+<div><i>(smirks)</i> Heh heh heh...
+Is everything all right, Prince?<br>
+You look as if you've seen
+some manner of ghoul...</div>
+<div>lyon</div>
+<div>I-I'm okay, Riev...
+Thanks for your concern.<br>
+...U-Urgh...</div>
+<div>riev</div>
+<div><i>(serious)</i> Oh no, don't tell me your
+head's giving you trouble again!</div>
+<div>lyon</div>
+<div>...Just a faint headache.
+It'll pass, like always...</div>
+<div>riev</div>
+<div>You know I'm here to serve you,
+my dear prince.<br>
+<i>(smirks)</i> Heh heh heh...</div>
+<div>lyon</div>
+<div>Y-Yeah...</div>
+			</div>
+			<h3 class="transition">Ide</h3>
+			<div class="container">
+<div>garcia</div>
+<div>W...What happened here...?!
+<p class="stagedirection">(Garcia runs through the village.)</p>
+<p>Ross! Ross, where are you?!
+Ross!</p>
+<p>Ross--!
+</p><p>
+......</p><p class="stagedirection">(Garcia crouches down.)</p>
+<p>...N-No...</p></div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
+<p class="hangingindent"><b>Bone</b><br>
+One of Bazba's henchmen.
+He's a docile simpleton.</p>
+<p class="hangingindent"><b>Bazba</b><br>
+The leader of Bazba's Bandits.
+He's a ruthless pillager.</p>
+<p class="hangingindent"><b>Colm</b><br>
+A childhood friend of Neimi who
+hails from Renais. He can be snide.</p>
+<p class="hangingindent"><b>Renais</b><br>
+The army of Renais, the
+bountiful central kingdom.</p>
+<p class="hangingindent"><b>Cutthroat</b><br>
+A former member of Bazba's Bandits, a
+recently disbanded bandit gang.</p>
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>
