@@ -171,3 +171,20 @@ img.portrait {
 	height: 80px;
 	width: 96px;
 }
+
+.objectives {
+	display: grid;
+	grid-template-columns: 135px 1fr;
+	column-gap: 0.5em;
+	margin-left: 35%;
+}
+
+.objectives font:first-child {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+footer {
+	text-align: center;
+	font-size: 10pt;
+}
